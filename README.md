@@ -26,10 +26,10 @@ This way you can see results from substantial voting populations without process
 ## Output
 
 The output of the script will be:
-- graphs for the county's general elections in the `images` directory
-- registered voter counts, votes, and 'late registrations' broken out by county, election, and age in the `results` directory
-- r values in the `results` directory
-- `late registration` counts in the results directory
+- `images/<county id>-<county>-<date>.png`: graphs with fitted polynomial for the county's general elections 
+- `results/reg_votes.txt`: registered voter counts, votes, and 'late registrations' broken out by county, election, and age 
+- `results/r_values.txt`: r values for the fitted polynomials
+- `results/late_reg.txt`: 'late registration' counts, the number of voters who registered to vote after the election
 
 Some pregenerated output is included in the repo as an example.
 
