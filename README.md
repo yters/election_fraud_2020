@@ -12,7 +12,7 @@ To download all the counties' data from the North Carolina election website, run
 There are 100 counties in North Carolina, so once the script completes you will have 200 zip files.  Download will take a couple minutes.
 
 
-# Processing data
+## Processing data
 
 To generate graphs, fit polynomials, and extract age demographics from a county dataset, run this script:
 ```
