@@ -62,6 +62,7 @@ cat('saving data\n')
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'registered', paste(x, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'voted', paste(y, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'late', paste(z, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'R', sqrt(R2), '\n'), file='results/r_values.txt', append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sqrt(R2), '\n'), file='results/r_values.txt', append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sum(z), '\n'), file='results/late.txt', append=TRUE)
 }
 cat(paste('finished with', county, '\n\n'))
