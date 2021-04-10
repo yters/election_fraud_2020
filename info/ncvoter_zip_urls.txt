@@ -1,0 +1,300 @@
+--
+<td>Alamance</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter1.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Alexander</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter2.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Alleghany</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter3.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Anson</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter4.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Ashe</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter5.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Avery</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter6.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Beaufort</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter7.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Bertie</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter8.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Bladen</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter9.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Brunswick</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter10.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Buncombe</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter11.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Burke</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter12.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Cabarrus</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter13.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Caldwell</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter14.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Camden</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter15.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Carteret</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter16.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Caswell</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter17.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Catawba</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter18.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Chatham</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter19.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Cherokee</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter20.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Chowan</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter21.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Clay</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter22.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Cleveland</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter23.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Columbus</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter24.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Craven</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter25.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Cumberland</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter26.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Currituck</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter27.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Dare</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter28.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Davidson</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter29.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Davie</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter30.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Duplin</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter31.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Durham</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter32.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Edgecombe</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter33.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Forsyth</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter34.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Franklin</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter35.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Gaston</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter36.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Gates</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter37.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Graham</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter38.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Granville</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter39.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Greene</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter40.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Guilford</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter41.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Halifax</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter42.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Harnett</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter43.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Haywood</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter44.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Henderson</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter45.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Hertford</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter46.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Hoke</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter47.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Hyde</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter48.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Iredell</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter49.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Jackson</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter50.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Johnston</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter51.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Jones</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter52.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Lee</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter53.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Lenoir</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter54.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Lincoln</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter55.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Macon</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter56.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Madison</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter57.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Martin</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter58.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>McDowell</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter59.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Mecklenburg</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter60.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Mitchell</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter61.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Montgomery</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter62.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Moore</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter63.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Nash</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter64.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>New Hanover</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter65.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Northampton</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter66.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Onslow</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter67.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Orange</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter68.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Pamlico</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter69.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Pasquotank</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter70.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Pender</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter71.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Perquimans</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter72.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Person</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter73.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Pitt</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter74.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Polk</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter75.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Randolph</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter76.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Richmond</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter77.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Robeson</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter78.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Rockingham</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter79.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Rowan</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter80.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Rutherford</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter81.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Sampson</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter82.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Scotland</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter83.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Stanly</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter84.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Stokes</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter85.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Surry</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter86.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Swain</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter87.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Transylvania</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter88.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Tyrrell</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter89.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Union</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter90.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Vance</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter91.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Wake</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter92.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Warren</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter93.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Washington</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter94.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Watauga</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter95.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Wayne</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter96.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Wilkes</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter97.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Wilson</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter98.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Yadkin</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter99.zip" rel="noopener" target="_blank">.zip</a></td>
+--
+<td>Yancey</td>
+<td><a data-extlink="" href="https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter100.zip" rel="noopener" target="_blank">.zip</a></td>
