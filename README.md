@@ -34,4 +34,4 @@ The output of the script will be:
 Some pregenerated output is included in the repo as an example.
 
 ## Strangeness
-The 2012 and 2016 elections have many voters who were not registered until sometimes much after the election.  Not sure if this is a glitch with the North Carolina database, or illegal voting.
+The 2012 and 2016 elections have many voters who were not registered until sometimes much after the election.  Not sure if this is a glitch with the North Carolina database, people reregistering, or illegal voting.
