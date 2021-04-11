@@ -47,5 +47,7 @@ This will create the following three files in `images`:
 
 Each image is the plot of all counties' turnout ratios for that specific election, along with a best fit line using a 6 degree polynomial.  The total number of votes for that election and the R value of the best fit line are part of the plot title.
 
+Note, the best fit line only extends over part of the plot, because only the non noisy data is used to derive the best fit.
+
 ## Strangeness
 The 2012 and 2016 elections have many voters who were not registered until sometimes much after the election.  Not sure if this is a glitch with the North Carolina database, people reregistering, or illegal voting.
