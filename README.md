@@ -50,4 +50,4 @@ Each image is the plot of all counties' turnout ratios for that specific electio
 Note, the best fit line only extends over part of the plot, because only the non noisy data is used to derive the best fit.
 
 ## Strangeness
-The 2012 and 2016 elections have many voters who were not registered until sometimes much after the election.  Not sure if this is a glitch with the North Carolina database, people reregistering, or illegal voting.
+The 2012 and 2016 elections have many voters who were not registered until sometimes much after the election.  Not sure if this is a glitch with the North Carolina database, people reregistering (e.g. regaining residency in state), or illegal voting.
