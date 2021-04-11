@@ -9,7 +9,7 @@ In the video, the physicist has checked a few states, and claims starting at 2:4
 
 ## Test of hypothesis approach
 
-The difficulty with verifying Dr. Frank's claim is many states paywall their data, and have restrictions on who can access the data, often only a resident of the state.  This analysis attempts to verify the physicist's claim in a state with a freely accessible public dataset of voter level granularity.  In this case, I am using North Carolina's dataset.  In the future, I plan to use one of the datasets in the video, to try and reproduce Dr. Frank's result.
+The difficulty with verifying Dr. Frank's claim is many states paywall their data, and have restrictions on who can access the data, often only a resident of the state.  This analysis attempts to verify the physicist's claim in a state with a freely accessible public dataset of voter level granularity.  In this case, I am using North Carolina's dataset: https://www.ncsbe.gov/results-data.  
 
 To test the hypothesis, for each age group and county, I am dividing the total votes for an election by the total registered voting population.  I do this for the 2020 election as well and 2016 and 2012.  If Dr. Frank's claim holds true for North Carolina, then the 2020 election dataset should be significantly different from 2016 and 2012, and a 6 degree polynomial should fit much better.  Additionally, it should be clear this is not due to the law of large numbers, i.e. that a statistic approaches an underlying natural distribution as the number of samples increases.
 
