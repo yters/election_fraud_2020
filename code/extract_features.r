@@ -31,6 +31,10 @@ elections <- c(
 major_elections
 )
 
+infinitesimal <- 0.1
+v <- table(reg_age[,'birth_age'])
+nv <- c()
+for (i in 1:130) { p <- which(as.numeric(unlist(attr(v, 'dimnames')))==i); if (length(p) > 0) { nv[i] <- v[p] } else { nv[i] <- infinitesimal } }
 for (election in elections) {
 cat(paste('tabulating election', election, '\n'))
 y <- table(ncvm[ncvm[,'election_lbl']==election,'birth_age'])
@@ -39,9 +43,9 @@ z <- table(ncvm[ncvm[,'election_lbl']==election & as.Date(ncvm[,'registr_dt'], '
 ny <- c()
 nx <- c()
 nz <- c()
-for (i in 1:130) { p <- which(as.numeric(unlist(attr(y, 'dimnames')))==i); if (length(p) > 0) { ny[i] <- y[p] } else { ny[i] <- 0 } }
-for (i in 1:130) { p <- which(as.numeric(unlist(attr(x, 'dimnames')))==i); if (length(p) > 0) { nx[i] <- x[p] } else { nx[i] <- 0 } }
-for (i in 1:130) { p <- which(as.numeric(unlist(attr(z, 'dimnames')))==i); if (length(p) > 0) { nz[i] <- z[p] } else { nz[i] <- 0 } }
+for (i in 1:130) { p <- which(as.numeric(unlist(attr(y, 'dimnames')))==i); if (length(p) > 0) { ny[i] <- y[p] } else { ny[i] <- infinitesimal } }
+for (i in 1:130) { p <- which(as.numeric(unlist(attr(x, 'dimnames')))==i); if (length(p) > 0) { nx[i] <- x[p] } else { nx[i] <- infinitesimal } }
+for (i in 1:130) { p <- which(as.numeric(unlist(attr(z, 'dimnames')))==i); if (length(p) > 0) { nz[i] <- z[p] } else { nz[i] <- infinitesimal } }
 
 cat('fitting polynomial\n')
 nr <- ny/nx
@@ -59,10 +63,11 @@ abline(h=1)
 title(paste(county_id,county,election,'R =',round(sqrt(R2),3),'votes =',sum(ny),'late reg. =',sum(nz)))
 tmp <- dev.off()
 cat('saving data\n')
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'registered', paste(x, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'voted', paste(y, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'limit_reg', paste(nx, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'voted', paste(ny, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'late_reg', paste(nz, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sqrt(R2), '\n'), file='results/r_values.txt', append=TRUE)
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sum(nz), '\n'), file='results/late_reg.txt', append=TRUE)
 }
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'all_reg', paste(nv, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
 cat(paste('finished with', county, '\n\n'))
