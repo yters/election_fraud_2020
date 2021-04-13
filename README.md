@@ -42,7 +42,6 @@ This way you can see results from substantial voting populations without process
 ## Processed output
 
 The output of the script will be:
-- `images/<county id>-<county>-<date>.png`: graphs with fitted polynomial for the county's general elections 
 - `results/reg_votes.txt`: registered voter counts, votes, and 'late registrations' broken out by county, election, and age 
 - `results/r_values.txt`: r values for the fitted polynomials
 - `results/late_reg.txt`: 'late registration' counts, the number of voters who registered to vote after the election
@@ -57,12 +56,18 @@ The 2012 and 2016 elections have many voters who were not registered until somet
 After all the datasets are processed, you can create a plot of all counties per election by running the following script:
 ```
 RScript code/plot_every_county_per_election.r
+RScript code/draw_county_graph.r
 ```
 
 This will create the following three files in `images`:
 - `images/_all_counties_2012.png`
 - `images/_all_counties_2016.png`
 - `images/_all_counties_2020.png`
+
+In addition there are three subdirectories which contain all the individual county plots of votes (black) and predictions (red):
+- `images/2020`
+- `images/2016`
+- `images/2012`
 
 Each image is the plot of all counties' turnout ratios for that specific election, along with a best fit line using a 6 degree polynomial.  The total number of votes for that election and the R value of the best fit line are part of the plot title.
 

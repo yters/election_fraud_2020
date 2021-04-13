@@ -55,13 +55,6 @@ fit <- lm(nr ~ poly(np, 6), na.action=na.exclude)
 R2 <- summary(fit)$r.squared
 aR2 <- summary(fit)$adj.r.squared
 
-cat('generating images\n')
-png(paste('images/',county_id,'-',county,'-',as.Date(election, '%m/%d/%Y'),'.png',sep=''))
-plot(ny/nx, type='l', ylim=c(0,1.2), xlim=c(18,125), xlab='Age', ylab='Turnout Ratio')
-lines(18:130, fitted(fit)[18:130], col='red', pch=20)
-abline(h=1)
-title(paste(county_id,county,election,'R =',round(sqrt(R2),3),'votes =',sum(ny),'late reg. =',sum(nz)))
-tmp <- dev.off()
 cat('saving data\n')
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'limit_reg', paste(nx, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
 cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'voted', paste(ny, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
