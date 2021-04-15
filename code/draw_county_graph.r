@@ -3,9 +3,19 @@ library(reshape2) # for the melt command
 fit_model <- function(votes, registrations, degrees) {
     ratios <- votes/registrations
     x <- rep(1:dim(votes)[2], 30)
-    y <- melt(t(ratios[1:30,]))[,3]
+    y <- melt(t(ratios[sample(1:dim(votes)[1])[1:30],]))[,3]
     y[!is.finite(y)] <- 0
     fit <- lm(y ~ poly(x, degrees), na.action=na.exclude)
+}
+
+r_vals <- function(votes, registrations, fit) {
+    r_vals <- c()
+    for(i in 1:98) {
+        truth <- unlist(votes[i,])
+        pred <- unlist(fitted(fit)[1:130]*registrations[i,])
+        r_vals <- c(r_vals, cor.test(truth, pred)$estimate)
+    }
+    r_vals
 }
 
 counties <- unlist(read.table('results/counties.txt', stringsAsFactors=FALSE))
