@@ -2,9 +2,8 @@ library(reshape2) # for the melt command
 
 fit_model <- function(votes, registrations, degrees, sample_count) {
     ratios <- votes/registrations
-    x <- rep(1:dim(votes)[2], sample_count)
-    y <- melt(t(ratios[sample(1:dim(votes)[1],30),]))[,3]
-    #y[!is.finite(y)] <- 0
+    x <- rep(1:dim(ratios)[2], sample_count)
+    y <- melt(t(ratios[sample(1:dim(ratios)[1],30),]))[,3]
     fit <- lm(y ~ poly(x, degrees), na.action=na.exclude)
 }
 
@@ -20,10 +19,7 @@ plot_graph <- function(year, votes, registrations, fit) {
         r_val <- cor.test(truth, pred)$estimate
         
         png(paste('images/',year,'/',substr(format(round(r_val,3),nsmall=3),1,5),'-',county_id,'-',county,'-',year,'.png',sep=''))
-        ylim <- c(0, max(registrations[i,]))
-        plot(truth, type='l', ylim=ylim, ylab='Votes', xlab='Age in 2020')
-        par(new=TRUE)
-        plot(pred, ylim=ylim, type='l', col='red', ylab='Votes', xlab='Age in 2020')
+	matplot(t(rbind(truth, pred)), type='l', col=c('black', 'red'), ylab='Votes', xlab='Age in 2020')
         title(paste(county_id,county,year,'R =',round(r_val,3),'votes =',sum(truth)))
         tmp <- dev.off()
     }
