@@ -65,16 +65,14 @@ This will create the following three files in `images`:
 - `images/_all_counties_2016.png`
 - `images/_all_counties_2020.png`
 
+Each image is the plot of all counties' turnout ratios for that specific election, along with a best fit line using a 6 degree polynomial.  The total number of votes for that election and the R value of the best fit line are part of the plot title.
+
 In addition there are three subdirectories which contain all the individual county plots of votes (black) and predictions (red):
 - `images/2020`
 - `images/2016`
 - `images/2012`
 
-Each image is the plot of all counties' turnout ratios for that specific election, along with a best fit line using a 6 degree polynomial.  The total number of votes for that election and the R value of the best fit line are part of the plot title.
-
-Note, the best fit line only extends over part of the plot, because only the non noisy data is used to derive the best fit.
-
-Also note, these turnout ratios are normalized using the entire voter registry database, instead of only those who are registered before the election.  This is the most conservative approach to minimize false positives when the hypothesis is the ratio is the product of an algorithm instead of a natural result of the law of large numbers.
+Also note, these turnout ratios and vote predictions are normalized using the entire voter registry database, instead of only those who are registered before the election.  This is the most conservative approach to minimize false positives when the hypothesis is the ratio is the product of an algorithm instead of a natural result of the law of large numbers.
 
 ## Conclusion
 
