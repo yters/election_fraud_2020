@@ -56,6 +56,7 @@ The 2012 and 2016 elections have many voters who were not registered until somet
 After all the datasets are processed, you can create a plot of all counties per election by running the following script:
 ```
 RScript code/plot_every_county_per_election.r
+./code/convert_to_vote_registration_files.sh
 RScript code/draw_county_graph.r
 ```
 
