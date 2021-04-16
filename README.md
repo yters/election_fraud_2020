@@ -78,7 +78,7 @@ Also note, these turnout ratios are normalized using the entire voter registry d
 
 ## Conclusion
 
-While the 2020 election's 6 degree polynomial fit is better than 2016 and 2012, it is not significantly better.  The R value for 2020 is 0.939, while the R value for 2016 is 0.822 and the R value for 2012 is 0.882.  The increase in votes from 2012 to 2016 is 400,000, and the increase in votes from 2016 is 700,000.  From a subjective eyeball of the respective all county graphs, there does not appear to be a qualitative difference between the turnout graphs.  So, my conclusion is at least for North Carolina, either the past three elections have all been algorithmically controlled, or none of them have.
+While the 2020 election's 6 degree polynomial fit is better than 2016 and 2012, it is not significantly better.  The average R value for 2020 is 0.995, while the R value for 2016 is 0.987 and the R value for 2012 is 0.985.  The increase in votes from 2012 to 2016 is 400,000, and the increase in votes from 2016 is 700,000.  From a subjective eyeball of the respective all county graphs, there does not appear to be a qualitative difference between the turnout graphs.  So, my conclusion is at least for North Carolina, either the past three elections have all been algorithmically controlled, or none of them have.
 
 One may then state, perhaps North Carolina was not hacked.  However, if hacking is the reason Biden won, and otherwise Trump is supposed to have won by a landslide, that was not the case in North Carolina.  Trump only won over Biden in 2020 by 1.3%.  Quite narrow to be a landslide victory.
 
