@@ -8,13 +8,8 @@ fit_model <- function(votes, registrations, degrees, sample_count) {
 }
 
 plot_all_counties <- function(year, votes, registrations, fit) {
-    crs <- c()
-    for (i in 1:dim(votes)[1]) {
-        truth <- unlist(votes[i,])
-        pred <- unlist(fitted(fit)[1:130]*registrations[i,])
-        crs <- c(crs, cor.test(truth, pred)$estimate)
-    }
-    r_value <- mean(crs)
+    pred <- t(apply(registrations, 1, function(x) {x * fitted(fit)[1:130]}))
+    r_value <- mean(mapply(function(x, y) {cor.test(x,y)$estimate}, as.data.frame(t(votes)), as.data.frame(t(pred))))
     
     png(paste('images/_all_counties_',year,'.png',sep=''))
     matplot(t(votes/registrations), type='l', ylab='Turnout ratio', xlab='Voter age in 2020', ylim=c(0,1))
