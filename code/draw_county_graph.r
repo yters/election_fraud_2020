@@ -7,9 +7,7 @@ fit_model <- function(votes, registrations, degrees, sample_count) {
     fit <- lm(y ~ poly(x, degrees), na.action=na.exclude)
 }
 
-counties <- unlist(read.table('results/counties.txt', stringsAsFactors=FALSE))
-
-plot_graph <- function(year, votes, registrations, fit) {
+plot_graph <- function(state, counties, year, votes, registrations, fit) {
     for(i in 1:dim(votes)[1]) {
         county_id <- i
         county <- counties[i]
@@ -18,20 +16,24 @@ plot_graph <- function(year, votes, registrations, fit) {
         pred <- unlist(fitted(fit)[1:130]*registrations[i,1:dim(registrations)[2]])
         r_val <- cor.test(truth, pred)$estimate
         
-        png(paste('images/',year,'/',substr(format(round(r_val,3),nsmall=3),1,5),'-',county_id,'-',county,'-',year,'.png',sep=''))
-	matplot(t(rbind(truth, pred)), type='l', col=c('black', 'red'), ylab='Votes', xlab='Age in 2020')
+        png(paste('images/',state,'/',year,'/',substr(format(round(r_val,3),nsmall=3),1,5),'-',county_id,'-',county,'-',year,'.png',sep=''))
+	matplot(t(rbind(truth, pred)), type='l', col=c('black', 'red'), lty=c(1, 1), lwd=c(3, 3), ylab='Votes', xlab='Age in 2020')
         title(paste(county_id,county,year,'R =',round(r_val,3),'votes =',sum(truth)))
         tmp <- dev.off()
     }
 }
 
-registrations_2020 <- read.table('results/registrations_2020.txt')
-registrations_2016 <- read.table('results/registrations_2016.txt')
-registrations_2012 <- read.table('results/registrations_2012.txt')
+base_path <- 'results/north_carolina/'
 
-votes_2020 <- read.table('results/votes_2020.txt')
-votes_2016 <- read.table('results/votes_2016.txt')
-votes_2012 <- read.table('results/votes_2012.txt')
+counties <- unlist(read.table(paste(base_path,'counties.txt',sep=''), stringsAsFactors=FALSE))
+
+registrations_2020 <- read.table(paste(base_path,'registrations_2020.txt',sep=''))
+registrations_2016 <- read.table(paste(base_path,'registrations_2016.txt',sep=''))
+registrations_2012 <- read.table(paste(base_path,'registrations_2012.txt',sep=''))
+
+votes_2020 <- read.table(paste(base_path,'votes_2020.txt',sep=''))
+votes_2016 <- read.table(paste(base_path,'votes_2016.txt',sep=''))
+votes_2012 <- read.table(paste(base_path,'votes_2012.txt',sep=''))
 
 poly_deg <- 6
 sample_count <- 30
@@ -39,6 +41,6 @@ fit_2020 <- fit_model(votes_2020, registrations_2020, poly_deg, sample_count)
 fit_2016 <- fit_model(votes_2016, registrations_2016, poly_deg, sample_count)
 fit_2012 <- fit_model(votes_2012, registrations_2012, poly_deg, sample_count)
 
-plot_graph('2020', votes_2020, registrations_2020, fit_2020)
-plot_graph('2016', votes_2016, registrations_2016, fit_2016)
-plot_graph('2012', votes_2012, registrations_2012, fit_2012)
+plot_graph('north_carolina', counties, '2020', votes_2020, registrations_2020, fit_2020)
+plot_graph('north_carolina', counties, '2016', votes_2016, registrations_2016, fit_2016)
+plot_graph('north_carolina', counties, '2012', votes_2012, registrations_2012, fit_2012)
