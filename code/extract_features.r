@@ -55,12 +55,14 @@ fit <- lm(nr ~ poly(np, 6), na.action=na.exclude)
 R2 <- summary(fit)$r.squared
 aR2 <- summary(fit)$adj.r.squared
 
+state <- 'north_carolina'
+
 cat('saving data\n')
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'limit_reg', paste(nx, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'voted', paste(ny, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'late_reg', paste(nz, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sqrt(R2), '\n'), file='results/r_values.txt', append=TRUE)
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sum(nz), '\n'), file='results/late_reg.txt', append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'limit_reg', paste(nx, collapse=' '), '\n'), file=paste('results/',state,'/reg_votes.txt',sep=''), append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'voted', paste(ny, collapse=' '), '\n'), file=paste('results/',state,'/reg_votes.txt',sep=''), append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'late_reg', paste(nz, collapse=' '), '\n'), file=paste('results/',state,'/reg_votes.txt',sep=''), append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sqrt(R2), '\n'), file=paste('results/',state,'/r_values.txt',sep=''), append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), sum(nz), '\n'), file=paste('results/',state,'/late_reg.txt',sep=''), append=TRUE)
 }
-cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'all_reg', paste(nv, collapse=' '), '\n'), file='results/reg_votes.txt', append=TRUE)
+cat(paste(county_id, county, as.Date(election, '%m/%d/%Y'), 'all_reg', paste(nv, collapse=' '), '\n'), file=paste('results/',state,'/reg_votes.txt',sep=''), append=TRUE)
 cat(paste('finished with', county, '\n\n'))
