@@ -30,7 +30,7 @@ There are 100 counties in North Carolina, so once the script completes you will 
 
 ## Processing data
 
-To generate graphs, fit polynomials, and extract age demographics from a county dataset, run this script:
+To extract age demographics from a county dataset, run this script:
 ```
 ./code/unzip_and_run_extractor.sh <county_id>
 ```
