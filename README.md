@@ -74,6 +74,21 @@ In addition there are three subdirectories which contain all the individual coun
 
 Also note, these turnout ratios and vote predictions are normalized using the entire voter registry database, instead of only those who are registered before the election.  This is the most conservative approach to minimize false positives when the hypothesis is the ratio is the product of an algorithm instead of a natural result of the law of large numbers.
 
+## Results
+
+The following graphs show the turnout ratios for every county in the general election for that year.  Additionally, there is a best fit polynomial based on all the turnout ratios.  In the graph title there is the total number of votes and the average R value for predicting the votes for each county individually.
+
+### North Carolina
+
+#### 2012 General Election
+![north_carolina_2012](https://raw.github.com/yters/election_fraud_2020/master/images/north_carolina/_all_counties_2012.png)
+
+#### 2016
+![north_carolina_2016](https://raw.github.com/yters/election_fraud_2020/master/images/north_carolina/_all_counties_2016.png)
+
+#### 2020
+![north_carolina_2020](https://raw.github.com/yters/election_fraud_2020/master/images/north_carolina/_all_counties_2020.png)
+
 ## Conclusion
 
 While the 2020 election's 6 degree polynomial fit is better than 2016 and 2012, it is not significantly better.  The average R value for 2020 is 0.995, while the R value for 2016 is 0.987 and the R value for 2012 is 0.985.  The increase in votes from 2012 to 2016 is 400,000, and the increase in votes from 2016 is 700,000.  From a subjective eyeball of the respective all county graphs, there does not appear to be a qualitative difference between the turnout graphs.  So, my conclusion is at least for North Carolina, either the past three elections have all been algorithmically controlled, or none of them have.
