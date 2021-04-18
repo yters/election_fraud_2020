@@ -42,9 +42,9 @@ This way you can see results from substantial voting populations without process
 ## Processed output
 
 The output of the script will be:
-- `results/north_carolina/reg_votes.txt`: registered voter counts, votes, and 'late registrations' broken out by county, election, and age 
-- `results/north_carolina/r_values.txt`: r values for the fitted polynomials
-- `results/north_carolina/late_reg.txt`: 'late registration' counts, the number of voters who registered to vote after the election
+- `results/reg_votes.txt`: registered voter counts, votes, and 'late registrations' broken out by county, election, and age 
+- `results/r_values.txt`: r values for the fitted polynomials
+- `results/late_reg.txt`: 'late registration' counts, the number of voters who registered to vote after the election
 
 All processed output is included in the repo as an example.
 
@@ -61,16 +61,16 @@ RScript code/draw_county_graph.r
 ```
 
 This will create the following three files in `images`:
-- `images/north_carolina/_all_counties_2012.png`
-- `images/north_carolina/_all_counties_2016.png`
-- `images/north_carolina/_all_counties_2020.png`
+- `images/_all_counties_2012.png`
+- `images/_all_counties_2016.png`
+- `images/_all_counties_2020.png`
 
 Each image is the plot of all counties' turnout ratios for that specific election, along with a best fit line using a 6 degree polynomial.  The total number of votes for that election and the R value of the best fit line are part of the plot title.
 
 In addition there are three subdirectories which contain all the individual county plots of votes (black) and predictions (red):
-- `images/north_carolina/2020`
-- `images/north_carolina/2016`
-- `images/north_carolina/2012`
+- `images/2020`
+- `images/2016`
+- `images/2012`
 
 Also note, these turnout ratios and vote predictions are normalized using the entire voter registry database, instead of only those who are registered before the election.  This is the most conservative approach to minimize false positives when the hypothesis is the ratio is the product of an algorithm instead of a natural result of the law of large numbers.
 
@@ -85,13 +85,13 @@ To see the individual county vote prediction graphs, look in the image subdirect
 ### North Carolina
 
 #### 2012 General Election
-![north_carolina_2012](https://raw.github.com/yters/election_fraud_2020/master/images/north_carolina/_all_counties_2012.png)
+![north_carolina_2012](https://raw.github.com/yters/election_fraud_2020/master/north_carolina/images/_all_counties_2012.png)
 
 #### 2016
-![north_carolina_2016](https://raw.github.com/yters/election_fraud_2020/master/images/north_carolina/_all_counties_2016.png)
+![north_carolina_2016](https://raw.github.com/yters/election_fraud_2020/master/north_carolina/images/_all_counties_2016.png)
 
 #### 2020
-![north_carolina_2020](https://raw.github.com/yters/election_fraud_2020/master/images/north_carolina/_all_counties_2020.png)
+![north_carolina_2020](https://raw.github.com/yters/election_fraud_2020/master/north_carolina/images/_all_counties_2020.png)
 
 ## Conclusion
 
