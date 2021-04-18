@@ -78,7 +78,7 @@ Also note, these turnout ratios and vote predictions are normalized using the en
 
 The following graphs show the turnout ratios for every county in the general election for that year.  Additionally, there is a best fit polynomial based on all the turnout ratios.  In the graph title there is the total number of votes and the average R value for predicting the votes for each county individually.
 
-We can see that generally the trend line stays the same and shifts to the left as the election year increases.  This shifting movement is somewhat obscured by the noise at the extremities of the graph due to a smaller voting population and the consequent higher variance.
+We can see that generally the trend line stays the same and shifts to the left as the election year increases.  This shifting movement is somewhat obscured by the noise at the extremities of the graph due to a smaller voting population and the consequent higher variance.  Essentially, the graphs show that 60 years old is the prime voter turnout age.
 
 To see the individual county vote prediction graphs, look in the image subdirectories as explained in the previous section.
 
