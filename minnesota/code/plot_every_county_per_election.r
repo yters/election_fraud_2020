@@ -4,7 +4,7 @@ fit_model <- function(votes, registrations, degrees, sample_count) {
     ratios <- votes/registrations
     x <- rep(1:dim(ratios)[2], sample_count)
     y <- melt(t(ratios[sample(1:dim(ratios)[1],30),]))[,3]
-    y[!is.finite(y)] <- 0
+    y[!is.finite(y)] <- NA
     fit <- lm(y ~ poly(x, degrees), na.action=na.exclude)
 }
 
@@ -23,23 +23,17 @@ base_path <- 'results/'
 poly_deg <- 6
 sample_count <- 30
 
-registrations_2020 <- unlist(read.table(paste(base_path,'registrations_2020.txt',sep='')))
-registrations_2020 <- matrix(registrations_2020, nrow=87, byrow=TRUE)
-votes_2020 <- unlist(read.table(paste(base_path,'votes_2020.txt',sep='')))
-votes_2020 <- matrix(votes_2020, nrow=87, byrow=TRUE)
+registrations_2020 <- read.table(paste(base_path,'registrations_2020.txt',sep=''))
+votes_2020 <- read.table(paste(base_path,'votes_2020.txt',sep=''))
 fit_2020 <- fit_model(votes_2020, registrations_2020, poly_deg, sample_count)
 plot_all_counties('2020', votes_2020, registrations_2020, fit_2020)
 
-registrations_2016 <- unlist(read.table(paste(base_path,'registrations_2016.txt',sep='')))
-registrations_2016 <- matrix(registrations_2016, nrow=87, byrow=TRUE)
-votes_2016 <- unlist(read.table(paste(base_path,'votes_2016.txt',sep='')))
-votes_2016 <- matrix(votes_2016, nrow=87, byrow=TRUE)
+registrations_2016 <- read.table(paste(base_path,'registrations_2016.txt',sep=''))
+votes_2016 <- read.table(paste(base_path,'votes_2016.txt',sep=''))
 fit_2016 <- fit_model(votes_2016, registrations_2016, poly_deg, sample_count)
 plot_all_counties('2016', votes_2016, registrations_2016, fit_2016)
 
-registrations_2012 <- unlist(read.table(paste(base_path,'registrations_2012.txt',sep='')))
-registrations_2012 <- matrix(registrations_2012, nrow=87, byrow=TRUE)
-votes_2012 <- unlist(read.table(paste(base_path,'votes_2012.txt',sep='')))
-votes_2012 <- matrix(votes_2012, nrow=87, byrow=TRUE)
+registrations_2012 <- read.table(paste(base_path,'registrations_2012.txt',sep=''))
+votes_2012 <- read.table(paste(base_path,'votes_2012.txt',sep=''))
 fit_2012 <- fit_model(votes_2012, registrations_2012, poly_deg, sample_count)
 plot_all_counties('2012', votes_2012, registrations_2012, fit_2012)
