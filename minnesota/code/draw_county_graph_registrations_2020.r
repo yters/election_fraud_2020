@@ -26,6 +26,9 @@ plot_graph <- function(year, votes, registrations, fit) {
 
 base_path <- 'results/'
 
+#counties <- unlist(read.table(paste(base_path,'counties.txt',sep=''), stringsAsFactors=FALSE))
+
+
 base_path <- 'results/'
 poly_deg <- 6
 sample_count <- 30
@@ -37,17 +40,17 @@ votes_2020 <- matrix(votes_2020, nrow=87, byrow=TRUE)
 fit_2020 <- fit_model(votes_2020, registrations_2020, poly_deg, sample_count)
 plot_graph('2020', votes_2020, registrations_2020, fit_2020)
 
-registrations_2016 <- unlist(read.table(paste(base_path,'registrations_2016.txt',sep='')))
-registrations_2016 <- matrix(registrations_2016, nrow=87, byrow=TRUE)
+registrations_2016 <- registrations_2020[,1:(dim(registrations_2020)[2]-4)]
 votes_2016 <- unlist(read.table(paste(base_path,'votes_2016.txt',sep='')))
 votes_2016 <- matrix(votes_2016, nrow=87, byrow=TRUE)
+votes_2016 <- votes_2016[,1:(dim(votes_2020)[2]-4)]
 fit_2016 <- fit_model(votes_2016, registrations_2016, poly_deg, sample_count)
 plot_graph('2016', votes_2016, registrations_2016, fit_2016)
 
-registrations_2012 <- unlist(read.table(paste(base_path,'registrations_2012.txt',sep='')))
-registrations_2012 <- matrix(registrations_2012, nrow=87, byrow=TRUE)
+registrations_2012 <- registrations_2016[,1:(dim(registrations_2016)[2]-4)]
 votes_2012 <- unlist(read.table(paste(base_path,'votes_2012.txt',sep='')))
 votes_2012 <- matrix(votes_2012, nrow=87, byrow=TRUE)
+votes_2012 <- votes_2012[,1:(dim(votes_2016)[2]-4)]
 fit_2012 <- fit_model(votes_2012, registrations_2012, poly_deg, sample_count)
 plot_graph('2012', votes_2012, registrations_2012, fit_2012)
 
