@@ -35,12 +35,14 @@ votes_2020 <- read.table(paste(base_path,'votes_2020.txt',sep=''))
 fit_2020 <- fit_model(votes_2020, registrations_2020, poly_deg, sample_count)
 plot_graph('2020', votes_2020, registrations_2020, fit_2020)
 
-registrations_2016 <- read.table(paste(base_path,'registrations_2016.txt',sep=''))
+# registrations_2016 <- read.table(paste(base_path,'registrations_2016.txt',sep=''))
+registrations_2016 <- registrations_2020
 votes_2016 <- read.table(paste(base_path,'votes_2016.txt',sep=''))
 fit_2016 <- fit_model(votes_2016, registrations_2016, poly_deg, sample_count)
 plot_graph('2016', votes_2016, registrations_2016, fit_2016)
 
-registrations_2012 <- read.table(paste(base_path,'registrations_2012.txt',sep=''))
+# registrations_2012 <- read.table(paste(base_path,'registrations_2012.txt',sep=''))
+registrations_2012 <- registrations_2020
 votes_2012 <- read.table(paste(base_path,'votes_2012.txt',sep=''))
 fit_2012 <- fit_model(votes_2012, registrations_2012, poly_deg, sample_count)
 plot_graph('2012', votes_2012, registrations_2012, fit_2012)
